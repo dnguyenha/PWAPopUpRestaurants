@@ -1,0 +1,89 @@
+
+<!DOCTYPE html>
+<html lang="en" class="index">
+    <head>
+    
+            <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css" />
+            <link rel="stylesheet" href="css/main.css" />
+        
+    <title>Home</title>
+    </head>
+    <body>
+        
+        <!-- your header here -->
+        
+        
+<nav>
+    <div class="navbar navbar-inverse navbar-static-top">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".navbar-collapse">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href=".">Meomun Popup Restaurants</a>
+        </div>
+        <div class="navbar-collapse collapse">
+            <ul class="nav navbar-nav navbar-right">
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
+        
+        <main>
+    <h1>Upcoming Popup Meals</h1>
+            <h2>Steak</h2>
+            <p><img width="400" height="320" src="https://images.squarespace-cdn.com/content/v1/565f628fe4b0a09598e07c4c/1611168832480-5T2W0GYR83M9H352MHOG/ke17ZwdGBToddI8pDm48kEXmIAFfm-jEVAMn4PATRvQUqsxRUqqbr1mOJYKfIPR7LoDQ9mXPOjoJoqy81S2I8GRo6ASst2s6pLvNAu_PZdJ0ML4pw1z1eBGIdjEc5vkUeANcTMJ2ztEcjDWCkbcibujMCoaEo2hhEIDboHxA99w/img_4099_50849720886_o.jpg?format=750w" alt="Steak"</p>
+            <p>The sirloin steak is cut from the sirloin, the subprimal posterior to the short loin where the T-bone, porterhouse, and club steaks are cut.</p>
+            <p style="color:green">Date of event: Saturday May 1st, 2021</p>
+            <p style="color:green">Location: Waterloo, Ontario</p>
+            <p style="color:red">Price: 40</p>
+            <form action="https://sms-popup-restaurants.herokuapp.com/payment/" method="post">
+            <input type="hidden" name="title" id="title" value="Steak" />
+            <input type="hidden" name="price" id="price" value="40" />
+            <input type="tel" name="tel" id="tel" placeholder="enter your number" />
+            <button type="submit">Order now</button>
+            </form>
+            
+            <h2>Lobster</h2>
+            <p><img width="400" height="320" src="https://images.squarespace-cdn.com/content/v1/565f628fe4b0a09598e07c4c/1611168848780-LWH4FH5B332N4RNUFT9Y/ke17ZwdGBToddI8pDm48kLkXF2pIyv_F2eUT9F60jBl7gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z4YTzHvnKhyp6Da-NYroOW3ZGjoBKy3azqku80C789l0iyqMbMesKd95J-X4EagrgU9L3Sa3U8cogeb0tjXbfawd0urKshkc5MgdBeJmALQKw/img_4123_50849727726_o.jpg?format=1500w" alt="Lobster"</p>
+            <p>Lobster risotto, arugula salad with citrus vinaigrette</p>
+            <p style="color:green">Date of event: Saturday May 8th, 2021</p>
+            <p style="color:green">Location: Montreal, Quebec</p>
+            <p style="color:red">Price: 45</p>
+            <form action="https://sms-popup-restaurants.herokuapp.com/payment/" method="post">
+            <input type="hidden" name="title" id="title" value="Lobster" />
+            <input type="hidden" name="price" id="price" value="45" />
+            <input type="tel" name="tel" id="tel" placeholder="enter your number" />
+            <button type="submit">Order now</button>
+            </form>
+            
+            <h2>Salmon</h2>
+            <p><img width="400" height="320" src="https://www.jocooks.com/wp-content/uploads/2015/07/maple-soy-grilled-salmon-steaks-1-2.jpg" alt="Salmon"</p>
+            <p>These Maple Soy Grilled Salmon Steaks involve only a handful of ingredients and require a minimal amount of your time! Full of flavor and cooks quickly.</p>
+            <p style="color:green">Date of event: Saturday May 15th, 2021</p>
+            <p style="color:green">Location: Toronto, Ontario</p>
+            <p style="color:red">Price: 35</p>
+            <form action="https://sms-popup-restaurants.herokuapp.com/payment/" method="post">
+            <input type="hidden" name="title" id="title" value="Salmon" />
+            <input type="hidden" name="price" id="price" value="35" />
+            <input type="tel" name="tel" id="tel" placeholder="enter your number" />
+            <button type="submit">Order now</button>
+            </form>
+            
+    </main>
+    
+            <footer>
+                </br></br>
+                &copy; <script>document.write(new Date().getFullYear())</script> Nguyen Ha Dao
+            </footer>
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.js"></script>
+            <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+            <script src="js/main.js"></script>
+        
+    </body>
+</html>
+        

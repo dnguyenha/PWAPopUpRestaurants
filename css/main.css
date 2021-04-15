@@ -1,0 +1,32 @@
+/* your css here */
+
+/* color scheme */
+:root {
+    --header-bg-color: #222;
+    --header-txt-color: #aaa;
+    --header-highlight-color: white;
+}
+
+.contact .navbar-inverse .navbar-nav > li > a[href="contact.html"], 
+.about .navbar-inverse .navbar-nav > li > a[href="about.html"],
+.index .navbar-inverse a.navbar-brand[href="."]
+{
+    color:var(--header-highlight-color);
+    background-color: inherit;
+}
+
+main {
+    min-height: calc(100vh - 8em);
+}
+footer {
+    height: 1em;
+}
+
+.navbar-inverse{
+    color:var(--header-txt-color);
+    background-color: var(--header-bg-color);
+}
+
+.navbar-inverse .navbar-brand, .navbar-inverse .navbar-nav>li>a {
+    color: inherit;
+}
